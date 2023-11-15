@@ -1,7 +1,7 @@
 {
     "performance": {
         "process": 2,
-        "threads": 100
+        "threads": 500
     },
     "request": {
         "module": "socket/httpx/aiohttp/requests",
@@ -13,16 +13,16 @@
             "sortedIds": false,
             "randomIds": true
         },
-        "min": 32000000,
-        "max": 32700000,
+        "min": 20000000,
+        "max": 33400000,
         "batchsize": 100
     },
     "webhook": {
-        "url": "webhok enteration frfr",
+        "url": "https://discord.com/api/webhooks/1174435656995451031/yKv5YH1F790q1qceMAiqiQJbOL8bE-_cfxMgOaNoNxe9UVs3FSomBIJ5Iq4cFvJ1eyIf",
         "groupPing": true
     },
     "proxy": {
-        "scrapeProxies": false,
+        "scrapeProxies": true,
         "sources": [
            "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt"
        ]
